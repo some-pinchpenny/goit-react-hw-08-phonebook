@@ -1,13 +1,7 @@
-// import { selectContacts } from 'redux/selectors';
-// import { AddForm } from './AddForm/AddForm';
-// import { ContactsList } from './ContactsList/ContactsList';
-// import { Filter } from './Filter/Filter';
 import { GlobalStyle } from './GlobalStyle';
-import { ContactsTitle, Layout, Title } from './Layout';
+import { Layout } from './Layout';
 import { useDispatch, useSelector } from 'react-redux';
 import { lazy, useEffect } from 'react';
-// import { Loading } from './Loading';
-// import { fetchContacts } from 'redux/operations';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { fetchCurrentUser } from 'redux/operations';
 import { PrivateRoute } from './PrivateRoute';
